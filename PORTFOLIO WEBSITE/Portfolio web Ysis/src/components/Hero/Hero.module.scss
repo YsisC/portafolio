@@ -1,0 +1,92 @@
+@import '../../style/contants.scss';
+.wrapper{
+overflow: hidden;
+.container{
+    position: relative;
+    z-index: 1;
+
+    .upperElements{
+        @media(max-width: $sm){
+            justify-content: center;
+            text-align: center;
+            gap: 2rem;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lowerElements{
+        @media (max-width: $sm), (max-width:$md)  {
+            margin-top:4rem;
+            gap: 2rem;
+            justify-content: center;
+        }
+        margin-top: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .experience{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                >:nth-child(2){
+                    line-height: 25px;
+                }
+        }
+        .certificate{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                margin-bottom: 0.9rem ;
+                width: 3.5rem;
+                // width: 10%;
+            }
+        }
+    }
+  
+    .person{
+        @media (max-width:$sm), (max-width:$md),(max-width: 840px) {
+            position: relative;
+            left: 0;
+            background-size: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: bottom;
+            width: 100%;
+        }
+        position: absolute;
+        bottom: -2.5rem;
+        margin: auto;
+        background-image: url(./splash.png);
+        background-repeat: no-repeat;
+        background-size: 23rem;
+        left:33%;
+        img{
+            @media (max-width:$sm),(max-width: $md),(max-width: 840px) {
+                width: 50%;
+                margin-bottom:-1px ;
+                left: -1rem;
+            }
+            position: relative;
+            width: 42%;
+            margin-bottom: -1px;
+            left: 2rem;
+        }
+    }
+   
+    .email{
+        @media (max-width:$sm), (max-width:$md) {
+        position: relative;
+        display: none;
+        }
+        position: absolute;
+        top: 50%;
+        left: 0;
+        color: orange;
+
+    }
+ }
+}

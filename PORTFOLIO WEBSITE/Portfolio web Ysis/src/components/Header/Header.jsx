@@ -3,17 +3,23 @@ import css from './Header.module.scss';
 import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import{motion}from 'framer-motion';
 import  {getMenuStyles, headerVariants}from '../../utils/motion';
-// css
+import useHeaderShadow from '../../hooks/useHeaderShadow'
+
 const Header =()=>{
-    const[menuOpened, setMenuOpened]=useState(false)
+
+    const[menuOpened, setMenuOpened]=useState(false);
+    const headerShadow = useHeaderShadow();
+
     return(
         <motion.div
         initial="hidden" 
         whileInView="show"
         variants={headerVariants}
         viewport = {{once: false, aumount:0.25}}
-
-        className={`paddings ${css.wrapper}`}>
+        className={`paddings ${css.wrapper}`
+        }
+        style={{boxShadow: headerShadow}}
+        >
      {/* <div  className={`paddings ${css.wrapper}`}>  */}
 
 
@@ -24,10 +30,10 @@ const Header =()=>{
                 <ul
                 style={getMenuStyles(menuOpened)}
                 className={`flexCenter ${css.menu }`}> 
-                    <li > <a href="">Servicios</a></li>
-                    <li > <a href="">Experiencia</a></li>
-                    <li > <a href="">Portafolio</a></li>
-                    <li > <a href="">Testimonios</a></li>
+                    <li > <a href="">Services</a></li>
+                    <li > <a href="">Experience</a></li>
+                    <li > <a href="">Portfolio</a></li>
+                    <li > <a href="">Testimonies</a></li>
                     <li className={`flexCenter ${css.phone}`}>
                      <p> +56930739387</p>
                      <BiPhoneCall size ={"40px"}/>
