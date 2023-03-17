@@ -63,16 +63,19 @@ overflow: hidden;
         background-image: url(./splash.png);
         background-repeat: no-repeat;
         background-size: 23rem;
+        top:0px;
         left:33%;
         img{
             @media (max-width:$sm),(max-width: $md),(max-width: 840px) {
                 width: 50%;
                 margin-bottom:-1px ;
                 left: -1rem;
+                top:0
             }
             position: relative;
             width: 42%;
-            margin-bottom: -1px;
+            // margin-bottom: 0px;
+            top: 45px;
             left: 2rem;
         }
     }

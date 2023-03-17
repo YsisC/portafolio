@@ -31,7 +31,7 @@ const Header =()=>{
                 style={getMenuStyles(menuOpened)}
                 className={`flexCenter ${css.menu }`}> 
                     <li > <a href="">Services</a></li>
-                    <li > <a href="">Experience</a></li>
+                    <li > <a href="">About me</a></li>
                     <li > <a href="">Portfolio</a></li>
                     <li > <a href="">Testimonies</a></li>
                     <li className={`flexCenter ${css.phone}`}>

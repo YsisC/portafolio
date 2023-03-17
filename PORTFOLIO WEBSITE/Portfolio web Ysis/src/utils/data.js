@@ -1,17 +1,18 @@
+// import{IoLogoReact} from "react-icons/io"
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Develop Web",
+    projects: 5,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Librery with node.js",
+    projects: 1,
+    icon:CiMobile1,
     bg: "#EEC048",
   },
   {
@@ -22,9 +23,9 @@ export const projectExperience = [
   },
 ];
 
-export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+export const aboutMe = [
+  "I am a web developer, currently in the Programming I can create from scratch applications web, which help other people to get the   Solution to your problems.",
+  "I worked for several years As a graduate in Public Accounting, I always have liked the numbers and the resolution of problems, and these tastes were important for my work performance"
 ];
 
 export const workExp = [
