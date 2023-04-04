@@ -112,7 +112,7 @@
 }
 
 .secondaryText {
-  @media (max-width: $sm) {
+  @media screen and  (max-width: $sm) {
     font-size: 1.1rem;
     line-height: 40px;
   }
