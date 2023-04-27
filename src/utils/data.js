@@ -30,27 +30,41 @@ export const aboutMe = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Laboratoria",
+    tenure: "Marh 2023 - Aph 2023",
+    role: "Burguer Queen",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    "It is an API CLIENT that allows restaurant workers to write down the orders and send them to the kitchen, so that the kitchen can notify them if they are ready, and then the orders can be sent until they reach their finished state. Additionally, the administrator can add users and products for sale",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place:  "Laboratoria",
+    tenure: "Marh 2023 - Aph 2023",
+    role:  "Md-Links",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "It is a library that you can download from the npm packages (Node Package Manager), and with it extract the links from the md files, and it tells you how many are valid and how many are broken with certain commands in the terminal..",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Laboratoria",
+    tenure: "Feb 2023 - March 2023",
+    role: "Foodgram! - Social Network",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Is a SPA (Single-page-application) with social network theme that allows people to connect with a healthy lifestyle, so they can share and readrecipes, this page can post, edit, delete and like. Among other functions like authenticate and save the information in firestore.",
   },
-];
+  {
+    place: "Laboratoria",
+    tenure: "Jan 2023 - Feb 2016",
+    role:"Rick and Morty - Web FanPages",
+    detail:
+      "It is a web page for fans of the Rick and Morty series or people who want learn about the series. This page manages to sort, search, filter and show statistics of different characteristics of the characters, according to the data of interest from the data selected.",
+  },
+  {
+    place:  "Laboratoria",
+    tenure: "Nov 2023 - Jan 2016",
+    role:  "Card Validation",
+    detail:
+      "It is a web application that allows a user to validate a credit card number. Also, you will have to implement functionality to hide almost all the digits of a card except for the last four."
+  }
+    ];
 
 export const comments = [
   {
