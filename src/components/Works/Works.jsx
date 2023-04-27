@@ -13,7 +13,7 @@ const Works = ()=>{
       className={`paddings ${css.wrapper}`}>
 
         <div className={`flexCenter innerWidth ${css.container}`}>
-          <span className='primaryText yPaddings'>My Work Experience</span>
+          <span className='primaryText yPaddings'>My Projects</span>
        
        <div className={`flexCenter ${css.experiences}`}>
         {
