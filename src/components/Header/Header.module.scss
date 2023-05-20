@@ -13,8 +13,14 @@
         justify-content:space-between;
         font-weight: 500;
         .name{
+         color: rgba(40, 111, 108, 1);
             font-size: 1.5rem;
             font-weight: 500;
+            .logo{
+                // color:rgba(238, 192, 92, 1);
+                width: 8rem;;
+              
+            }
         }
         .menu{
             @media (max-width: $sm), (max-width: $md) {

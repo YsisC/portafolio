@@ -16,8 +16,8 @@ export const projectExperience = [
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Figma",
+    projects: 3,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },

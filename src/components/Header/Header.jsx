@@ -4,6 +4,7 @@ import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import{motion}from 'framer-motion';
 import  {getMenuStyles, headerVariants}from '../../utils/motion';
 import useHeaderShadow from '../../hooks/useHeaderShadow'
+import logo from '../../assets/logo.svg'
 
 const Header =()=>{
 
@@ -25,7 +26,7 @@ const Header =()=>{
 
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <div className={css.name}>
-                  Ysis 
+            <img src={logo} alt="logo" className={css.logo}/>
                  </div>
                 <ul
                 style={getMenuStyles(menuOpened)}
@@ -33,7 +34,7 @@ const Header =()=>{
                     <li > <a href="">Services</a></li>
                     <li > <a href="">About me</a></li>
                     <li > <a href="">Portfolio</a></li>
-                    <li > <a href="">Testimonies</a></li>
+                    <li > <a href="">Skills</a></li>
                     <li className={`flexCenter ${css.phone}`}>
                      <p> +56930739387</p>
                      <BiPhoneCall size ={"40px"}/>

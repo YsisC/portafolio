@@ -8,21 +8,20 @@ overflow: hidden;
     .upperElements{
         @media(max-width: $sm){
             justify-content: center;
-            text-align: center;
             gap: 2rem;
         }
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .lowerElements{
         @media (max-width: $sm), (max-width:$md)  {
-            margin-top:4rem;
             gap: 2rem;
             justify-content: center;
         }
-        margin-top: 10rem;
+        margin-top: 12rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
