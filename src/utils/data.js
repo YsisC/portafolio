@@ -5,7 +5,7 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Develop Web",
-    projects: 5,
+    projects: 8,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },

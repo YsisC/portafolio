@@ -24,25 +24,25 @@ const Heros = () => {
 
                         </div>
                         <div className={css.profile_details_name}>
-                            <span className={css.primaryText}>
+                            <span className={`primaryText`}>
                                 {" "}
-                                Hello, I'm <span className={css.highted_text}> Ysis </span>
+                                Hello, I'm <span className={css.highted_text}> Ysis Longart </span>
                             </span>
                         </div>
                         <div className={css.profile_detail_role}>
                             <span className="primaryText">
                                 {" "}
                                 <h1>
-       
-                                    {/* <ReactTypical
-                steps={[
 
-                    'Front-end Developer 🖥 ', 2000,
-                    'React/ Angular 💻 ', 2000
-                ]}
-                loop={2}
-                wrapper="p"
-            /> */}
+                                    <ReactTypical
+                                        steps={[
+
+                                            'Front-end Developer 🖥 ', 2000,
+                                            'React/ Angular 💻 ', 2000
+                                        ]}
+                                        loop={2}
+                                        wrapper="p"
+                                    />
 
                                 </h1>
                                 <span className={css.profile_role_tagline}>
@@ -58,7 +58,7 @@ const Heros = () => {
                                 Hire Me
                             </button>
                             <a href="YsisLongart..pdf" download="Ysis ysislongart.pdf">
-                                <button> Get resumen</button>
+                                <button  className={css.btn}> Get resumen</button>
                             </a>
 
                         </div>
@@ -66,7 +66,10 @@ const Heros = () => {
                 </div>
 
                 <div className={css.rigthElement}>
-                    derecha
+               <div className={css.profile_picture}>
+               <div className={css.profile_picture_background}>
+               </div>
+               </div>
                 </div>
 
             </div>
