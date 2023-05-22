@@ -1,0 +1,53 @@
+@import '../../style/contants.scss';
+
+.wrapper {
+    overflow: hidden;
+
+    .container {
+        @media (max-width:$sm) {
+            flex-direction: column;
+        }
+
+        justify-content: space-around;
+
+        .leftElement{
+       
+            .icon{
+                
+                display: flex;
+                gap: 2.5rem;
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                    
+                &:hover {
+                    color: red;
+                }
+                }
+
+            }
+            .profile_details_name{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .primaryText{
+
+                    .highted_text{
+                        color: orange;
+                    }
+                }
+               
+            }
+        }
+        
+        // .rightElements{
+
+        // }
+
+
+    }
+
+
+
+
+}

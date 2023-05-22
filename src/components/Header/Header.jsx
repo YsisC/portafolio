@@ -26,15 +26,16 @@ const Header =()=>{
 
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <div className={css.name}>
-            <img src={logo} alt="logo" className={css.logo}/>
+                <a href="#hero"> <img src={logo} alt="logo" className={css.logo}/></a>
                  </div>
                 <ul
                 style={getMenuStyles(menuOpened)}
                 className={`flexCenter ${css.menu }`}> 
-                    <li > <a href="">Services</a></li>
-                    <li > <a href="">About me</a></li>
-                    <li > <a href="">Portfolio</a></li>
-                    <li > <a href="">Skills</a></li>
+                   
+                    <li > <a href="#about">About me</a></li>
+                    <li > <a href="#work">Experience</a></li>
+                    <li > <a href="#portfolio">Portfolio</a></li>
+                    <li > <a href="#skills">Skills</a></li>
                     <li className={`flexCenter ${css.phone}`}>
                      <p> +56930739387</p>
                      <BiPhoneCall size ={"40px"}/>
