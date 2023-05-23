@@ -3,6 +3,7 @@ import css from './ContactMe.module.scss'
 import { motion } from 'framer-motion'
 import {  staggerChildren, textVariant } from '../../utils/motion'
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
+import { BiLocationPlus } from 'react-icons/bi'
 import emailjs from '@emailjs/browser';
 
 export default function ContacMe() {
@@ -58,8 +59,8 @@ export default function ContacMe() {
                             <p>+56-930739387</p>
                         </div>
                         <div className={css.info}>
-                            <div> <AiOutlineWhatsApp /> </div>
-                            <p>+56-930739387</p>
+                            <div> <BiLocationPlus /> </div>
+                            <p>Santiago de Chile</p>
                         </div>
                     </motion.div>
                 </div>
