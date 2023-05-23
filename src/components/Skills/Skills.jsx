@@ -19,7 +19,7 @@ export default function Skills() {
         <a className="anchor" id='skills'></a>
         <h1 className="primaryText flexCenter">My skills</h1>
         <p className="secondaryText flexCenter">My knowledge</p>
-        <motion.div  variants={fadeIn("up", "tween", .5, .6)} className={`flexCenter ${css.cardList}`}>
+        <motion.div  variants={fadeIn("up", "tween", .4, .5)} className={`flexCenter ${css.cardList}`}>
 
         <div   className={`flexCenter ${css.card}`}>
             <div className={`flexCenter ${css.circle_advance}`}> <AiFillHtml5 size={45} /> </div>

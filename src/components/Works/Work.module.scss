@@ -3,17 +3,34 @@
 .wrapper {
     background-color: white;
     overflow: hidden;
+
     .container {
+        @media (max-width: $sm) {
+            gap: 1rem;
+        }
+
+        width: 100vw;
         flex-direction: column;
         gap: 2rem;
 
+
         .experiences {
+            @media (max-width: $sm) {
+                gap: 1rem;
+                padding-right: 0.5rem;
+
+            }
+
             width: 100%;
             flex-direction: column;
             gap: 1.4rem;
             position: relative;
 
             .exp {
+                @media (max-width: $sm) {
+                    line-height: 30px;
+                }
+
                 width: 100%;
                 justify-content: space-between;
                 line-height: 40px;
@@ -23,7 +40,19 @@
                     flex: 1;
                 }
 
+                .post {
+                    @media (max-width: $sm) {
+                    text-align: justify;
+                    text-justify: distribute;
+                    text-align-last: left;
+                    }
+                }
+
                 .role {
+                    @media (max-width: $sm) {
+                        margin-left: 0.5rem;
+                    }
+
                     margin-left: 2rem;
                 }
             }
@@ -43,22 +72,23 @@
                     background-image: linear-gradient(black 33%, rgb(255, 255, 255, 0)0%);
                     background-size: 2px 30px;
                     background-position: right;
-                    background-repeat:repeat-y ;
+                    background-repeat: repeat-y;
                     left: 48%;
                     z-index: 1;
                     border-radius: 5px;
                 }
-                >div{
+
+                >div {
                     flex: 1;
-                    padding-top:.8rem ;
+                    padding-top: .8rem;
                     z-index: 2;
 
-                    .circle{
+                    .circle {
                         border-radius: 50%;
                         background-color: black;
                         width: 1.2rem;
                         height: 1.2rem;
-                        
+
                     }
                 }
 
