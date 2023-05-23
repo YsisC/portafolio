@@ -6,6 +6,7 @@ import css from './style/app.module.scss'
 import Heros from "./components/Hero2/Heros.jsx";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Skills from "./components/Skills/Skills.jsx";
+import ContacMe from "./components/ContactMe/ContacMe.jsx";
 const App = () => {
  
   return <div className={`bg-primary ${css.container}`} >
@@ -13,9 +14,10 @@ const App = () => {
 <Heros/>
 {/* <Hero/> */}
 <About/>
+<Skills/>
 <Works/>
 <Portfolio/>
-<Skills/>
+<ContacMe/>
   </div>
 };
 

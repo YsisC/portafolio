@@ -36,9 +36,9 @@ const Heros = () => {
 
                                     <ReactTypical
                                         steps={[
-
-                                            'Front-end Developer 🖥 ', 2000,
-                                            'React/ Angular 💻 ', 2000
+                                            'React/ Angular 💻 ', 2000,
+                                            'Front-end Developer 🖥 ', 2000
+                                           
                                         ]}
                                         loop={2}
                                         wrapper="p"

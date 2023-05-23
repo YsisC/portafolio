@@ -46,7 +46,7 @@
             .profile_options{
                 display: flex;
                 gap: 1rem;
-                .btn{
+                button{
                     border-radius: 50px;
                     padding: 14px 0;
                     width: 160px;
@@ -69,6 +69,9 @@
         .rigthElement{
      
             .profile_picture{
+                @media (max-width:$sm) {
+                    margin: 0;
+                }
                 display: flex;
                
                 align-items: center;

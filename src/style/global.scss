@@ -107,22 +107,40 @@
   @media (max-width: $sm) {
     font-size: 2.5rem;
   }
+
   font-size: 3rem;
   font-weight: bold;
 }
 
 .secondaryText {
-  @media screen and  (max-width: $sm) {
+  @media screen and (max-width: $sm) {
     font-size: 1.1rem;
     line-height: 40px;
   }
+
   line-height: 50px;
   font-size: 1.3rem;
   font-weight: 500
 }
+
 .anchor {
   display: block;
   position: relative;
   top: -100px;
   visibility: hidden;
+}
+
+.btn-primary {
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: #0D2F3F;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #0D2F3F;
 }

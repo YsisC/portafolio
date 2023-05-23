@@ -1,0 +1,68 @@
+@import '../../style/contants.scss';
+
+
+.wrapper {
+    overflow: hidden;
+
+    // background-color: red;
+    .container {
+        // background-color: red;
+        flex-direction: column;
+        gap: 1rem;
+
+        .cardList {
+            @media (max-width:$sm) {
+                flex-direction: column;
+            }
+
+            display: flex;
+            gap:2rem;
+            flex-wrap: wrap;
+
+            .card {
+                flex-direction: column;
+                gap: 1rem;
+                max-width: 16rem;
+                min-width: 11rem;
+                height: 14rem;
+                background-color: white;
+                border-radius: 0.75rem;
+                box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+
+                &:hover {
+                    scale: 1.05;
+                    transition: 1s ease-out;
+                }
+
+                div {
+                    width: 7rem;
+                    height: 7rem;
+                    border-radius: 50%;
+
+                    &:hover {
+                        color: rgb(40, 111, 108);
+                    }
+                }
+
+                .circle_beginer {
+                    background:
+                        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                        conic-gradient(rgb(40, 111, 108) 40%, gray 0);
+
+                }
+
+                .circle_intermediate {
+                    background:
+                        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                        conic-gradient(rgb(40, 111, 108) 50%, gray 0);
+                }
+
+                .circle_advance {
+                    background:
+                    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                    conic-gradient(rgb(40, 111, 108) 75%, gray 0);
+                }
+            }
+        }
+    }
+}

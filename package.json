@@ -11,6 +11,8 @@
   "dependencies": {
     "@babel/runtime": "^7.21.5",
     "@deadcoder0904/react-typical": "^0.1.2",
+    "@emailjs/browser": "^3.11.0",
+    "emailjs": "^4.0.2",
     "framer-motion": "^10.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

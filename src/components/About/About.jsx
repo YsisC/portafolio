@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                         <div className={`flexCenter ${css.stat}`}>
                             <span className="primaryText">3+</span>
-                            <span className="secondaryText">Happy client</span>
+                            <span className="secondaryText">Collaboration </span>
                         </div>
 
                     </div>
