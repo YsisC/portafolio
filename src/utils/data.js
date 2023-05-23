@@ -24,7 +24,7 @@ export const projectExperience = [
 ];
 
 export const aboutMe = [
-  "I am a web developer, currently in the Programming I can create from scratch applications web, which help other people to get the   Solution to your problems.",
+  "I am a web developer, currently in the Programming I can create from scratch applications web, which help other people to get the   Solution to their problems.",
   "I worked for several years As a graduate in Public Accounting, I always have liked the numbers and the resolution of problems, and these tastes were important for my work performance"
 ];
 
