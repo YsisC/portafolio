@@ -7,6 +7,8 @@ import Heros from "./components/Hero2/Heros.jsx";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import ContacMe from "./components/ContactMe/ContacMe.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+
 const App = () => {
  
   return <div className={`bg-primary ${css.container}`} >
@@ -18,6 +20,7 @@ const App = () => {
 <Works/>
 <Portfolio/>
 <ContacMe/>
+<Footer/>
   </div>
 };
 

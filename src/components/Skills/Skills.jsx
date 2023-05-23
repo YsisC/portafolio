@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { staggerChildren } from '../../utils/motion'
+import { fadeIn, staggerChildren } from '../../utils/motion'
 import css from './Skills.module.scss'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiAngularSimple, DiCss3, DiReact, DiJavascript } from 'react-icons/di'
@@ -19,14 +19,14 @@ export default function Skills() {
         <a className="anchor" id='skills'></a>
         <h1 className="primaryText flexCenter">My skills</h1>
         <p className="secondaryText flexCenter">My knowledge</p>
-        <div className={`flexCenter ${css.cardList}`}>
+        <motion.div  variants={fadeIn("up", "tween", .5, .6)} className={`flexCenter ${css.cardList}`}>
 
-          <div className={`flexCenter ${css.card}`}>
+        <div   className={`flexCenter ${css.card}`}>
             <div className={`flexCenter ${css.circle_advance}`}> <AiFillHtml5 size={45} /> </div>
             <p>Intermediate</p>
           </div>
 
-          <div className={`flexCenter ${css.card}`}>
+          <div  className={`flexCenter ${css.card}`}>
             <div className={`flexCenter ${css.circle_advance}`}> <DiCss3 size={45} /> </div>
             <p>Advance</p>
 
@@ -57,7 +57,7 @@ export default function Skills() {
          
 
 
-        </div>
+        </motion.div>
 
       </div>
     </motion.section>

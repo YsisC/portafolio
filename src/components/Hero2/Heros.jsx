@@ -17,12 +17,7 @@ const Heros = () => {
                     <div className={css.profile_details_nameleftElement}>
 
 
-                        <div className={`${css.icon}`}>
-                            <a href="https://github.com/YsisC"><AiFillGithub size={30} /> </a>
-                            <a href="https://www.linkedin.com/in/ysis-carolina-longart-rivero/"><AiFillLinkedin size={30} /> </a>
-                            <a href="https://www.codewars.com/users/YsisC"><SiCodewars size={30} /> </a>
-
-                        </div>
+                       
                         <div className={css.profile_details_name}>
                             <span className={`primaryText`}>
                                 {" "}
@@ -52,6 +47,7 @@ const Heros = () => {
                                 </span>
                             </span>
                         </div>
+                       
                         <div className={css.profile_options}>
                             <button className={css.btn}>
                                 {""}
@@ -60,6 +56,12 @@ const Heros = () => {
                             <a href="YsisLongart..pdf" download="Ysis ysislongart.pdf">
                                 <button  className={css.btn}> Get resumen</button>
                             </a>
+
+                        </div>
+                        <div className={`${css.icon}`}>
+                            <a href="https://github.com/YsisC"><AiFillGithub size={30} /> </a>
+                            <a href="https://www.linkedin.com/in/ysis-carolina-longart-rivero/"><AiFillLinkedin size={30} /> </a>
+                            <a href="https://www.codewars.com/users/YsisC"><SiCodewars size={30} /> </a>
 
                         </div>
                     </div>

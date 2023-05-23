@@ -1,6 +1,8 @@
 @import '../../style/global.scss';
 
 .wrapper {
+    background-color: white;
+    overflow: hidden;
     .container {
         flex-direction: column;
         gap: 2rem;

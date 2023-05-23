@@ -1,33 +1,26 @@
-import {useRef} from 'react'
+import { useRef } from 'react'
 import css from './ContactMe.module.scss'
 import { motion } from 'framer-motion'
-import { staggerChildren } from '../../utils/motion'
+import {  staggerChildren, textVariant } from '../../utils/motion'
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
-// import { SMTPClient } from 'emailjs';
 import emailjs from '@emailjs/browser';
 
 export default function ContacMe() {
 
-    // const client = new SMTPClient({
-    //     user: 'user',
-    //     password: 'password',
-    //     host: 'smtp.your-email.com',
-    //     ssl: true,
-    // });
-const form =useRef();
+    const form = useRef();
 
-const sendEmail = (e) => {
-    e.preventDefault();
-    // service_lho7c0d
-    emailjs.sendForm('service_lho7c0d', 'template_ozg6bnh', form.current, 'YlzgSN1UZ1WmJXYvs')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-  };
-    
+    const sendEmail = (e) => {
+        e.preventDefault();
+        // service_lho7c0d
+        emailjs.sendForm('service_lho7c0d', 'template_ozg6bnh', form.current, 'YlzgSN1UZ1WmJXYvs')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    };
+
     return (
 
         <motion.section
@@ -36,21 +29,26 @@ const sendEmail = (e) => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.25 }}
             className={`paddings ${css.wrapper} `}>
+                    <a  className="anchor" id='contactme'></a>
             <div className={`flexCenter ${css.container}`}>
 
-                <h1 className='flexCenter primaryText'>ContacMe</h1>
+                <h1 className='flexCenter primaryText'>Contact Me</h1>
                 <p className='secondary flexCenter'>Get in touch</p>
                 <div className={css.informationdiv}>
 
-                    <form ref={form}
-                    onSubmit={sendEmail} >
+
+                    <form
+                        ref={form}
+                        onSubmit={sendEmail} >
                         <input type="text" placeholder="Your Name" name='user_name' required />
                         <input type="email" name='user_email' placeholder="Your Email Address" required />
                         <textarea placeholder="Your Message" name='message' rows="10" required />
                         <button type="submit" className='btn-primary'  > Send Message</button>
                     </form>
 
-                    <div className={css.rigthSideElement}>
+                    <motion.div 
+                    variants={textVariant(0.5)}
+                    className={css.rigthSideElement}>
                         <div className={css.info}>
                             <div> <AiOutlineMail /> </div>
                             <p>ysisclongart@gmail.com</p>
@@ -63,7 +61,7 @@ const sendEmail = (e) => {
                             <div> <AiOutlineWhatsApp /> </div>
                             <p>+56-930739387</p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
             </div>
