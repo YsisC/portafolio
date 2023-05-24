@@ -3,7 +3,8 @@ import { motion } from 'framer-motion'
 import { fadeIn, staggerChildren } from '../../utils/motion'
 import css from './Skills.module.scss'
 import { AiFillHtml5 } from 'react-icons/ai'
-import { DiAngularSimple, DiCss3, DiReact, DiJavascript } from 'react-icons/di'
+import { DiAngularSimple, DiCss3, DiReact } from 'react-icons/di'
+import { TbBrandJavascript} from 'react-icons/tb'
 import { SiTypescript } from 'react-icons/si'
 
 export default function Skills() {
@@ -28,12 +29,12 @@ export default function Skills() {
 
           <div  className={`flexCenter ${css.card}`}>
             <div className={`flexCenter ${css.circle_advance}`}> <DiCss3 size={45} /> </div>
-            <p>Advance</p>
+            <p>Advanced</p>
 
           </div>
 
           <div className={`flexCenter ${css.card}`}>
-          <div className={`flexCenter ${css.circle_intermediate}`}>    <DiJavascript size={45} />  </div>
+          <div className={`flexCenter ${css.circle_intermediate}`}>    <TbBrandJavascript size={45} />  </div>
          
             <p>Intermediate</p>
 
@@ -41,7 +42,7 @@ export default function Skills() {
           
           <div className={`flexCenter ${css.card}`}>
             <div className={`flexCenter ${css.circle_beginer}`}> <DiReact size={45} /> </div>
-            <p>Beginer</p>
+            <p>Beginner</p>
 
           </div>
           <div className={`flexCenter ${css.card}`}>

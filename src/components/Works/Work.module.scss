@@ -1,11 +1,17 @@
 @import '../../style/global.scss';
 
-.wrapper{
-    @media (max-width: $sm) {
-        padding: 0;
-        margin: 0;
+.wrapper {
+    @media (min-width: $sm) {
+        padding: 4rem;
     }
 
+    @media (min-width: $xl),
+    (min-width: $md) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    padding: 0.5rem;
     background-color: white;
     width: 100vw;
     overflow: hidden;
@@ -15,8 +21,9 @@
             gap: 1rem;
             width: 100vw;
         }
-// width: 100%;
-// width: 100vw;
+
+        // width: 100%;
+        // width: 100vw;
         flex-direction: column;
         gap: 2rem;
 
@@ -49,9 +56,9 @@
 
                 .post {
                     @media (max-width: $sm) {
-                    text-align: justify;
-                    text-justify: distribute;
-                    text-align-last: left;
+                        text-align: justify;
+                        text-justify: distribute;
+                        text-align-last: left;
                     }
                 }
 
