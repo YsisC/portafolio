@@ -30,6 +30,13 @@ export const aboutMe = [
 
 export const workExp = [
   {
+    place: "Freelance",
+    tenure: "Aph 2023 - May 2023",
+    role: "App Gif- Angular",
+    detail:
+    "It is a web application to search for GIFs on various topics.. (Angular, TypeScript, HTML, CSS, Bootstrap)",
+  },
+  {
     place: "Laboratoria",
     tenure: "Marh 2023 - Aph 2023",
     role: "Burguer Queen",

@@ -19,18 +19,20 @@ export default function Portfolio() {
                         <span className='primaryText'>My Latest Works</span>
                         <p style={{ marginTop: "10px" }}>Perfect solution</p>
                     </div>
-                    <span className="secondaryText">
+                   <a href='https://github.com/YsisC?tab=repositories' ><span className="secondaryText">
                         Explore more works
-                    </span>
+                    </span></a>
                 </div>
                 {/* Image */}
                 <div className={`flexCenter ${css.showCase}`}>
-                    <motion.img  variants={fadeIn("up", "tween", .5, .6)}
+                   <motion.img  variants={fadeIn("up", "tween", .4, .6)}
+                        src="./app gif.png" alt='project' />
+                   <motion.img  variants={fadeIn("up", "tween", .5, .6)}
                         src="./burguer queen.png" alt='project' />
                     <motion.img variants={fadeIn("up", "tween", .7, .6)}
                         src="./foodgram.png" alt='project' />
                     <motion.img variants={fadeIn("up", "tween", .9, .6)}
-                        src="./rickandmorty.png" alt='project' />
+                        src="./mdlink.png" alt='project' />
 
                 </div>
 
