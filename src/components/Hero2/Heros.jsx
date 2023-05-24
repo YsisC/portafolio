@@ -31,11 +31,11 @@ const Heros = () => {
 
                                     <ReactTypical
                                         steps={[
-                                            'React/ Angular 💻 ', 2000,
-                                            'Front-end Developer 🖥 ', 2000
+                                            'React/ Angular 💻 ', 1000,
+                                            'Front-end Developer 🖥 ', 1000
                                            
                                         ]}
-                                        loop={2}
+                                        loop={1}
                                         wrapper="p"
                                     />
 
@@ -49,10 +49,11 @@ const Heros = () => {
                         </div>
                        
                         <div className={css.profile_options}>
+                            <a href="#contactme">
                             <button className={css.btn}>
                                 {""}
                                 Hire Me
-                            </button>
+                            </button></a>
                             <a href="YsisLongart..pdf" download="Ysis ysislongart.pdf">
                                 <button  className={css.btn}> Get resumen</button>
                             </a>
