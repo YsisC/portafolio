@@ -59,14 +59,14 @@ export const workExp = [
   },
   {
     place: "Laboratoria",
-    tenure: "Jan 2023 - Feb 2016",
+    tenure: "Jan 2023 - Feb 2023",
     role:"Rick and Morty - Web FanPages",
     detail:
       "It is a website for fans of the Rick and Morty series. This page allows for organizing, searching, filtering, and displaying statistics. (Javascript, HTML, CSS, Figma)",
   },
   {
     place:  "Laboratoria",
-    tenure: "Nov 2023 - Jan 2016",
+    tenure: "Nov 2022 - Jan 2023",
     role:  "Card Validation",
     detail:
       "It is a web application that allows a user to validate a credit card number. (Javascript, HTML, CSS)"
