@@ -60,6 +60,14 @@ export default function Portfolio() {
             src="./mdlink.png"
             alt="project"
           />
+          <motion.img
+            variants={fadeIn("up", "tween", 0.9, 0.6)}
+            onClick={() =>
+              handleImageClick("https://dev-003-notes.vercel.app/")
+            }
+            src="./labnote.png"
+            alt="project"
+          />
         </div>
       </div>
     </motion.section>
