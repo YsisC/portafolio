@@ -54,7 +54,7 @@ const Heros = () => {
                                 {""}
                                 Hire Me
                             </button></a>
-                            <a href="YsisLongart..pdf" download="Ysis ysislongart.pdf">
+                            <a href="YsisLongart.pdf" download="Ysis ysislongart.pdf">
                                 <button  className={css.btn}> Get resumen</button>
                             </a>
 
