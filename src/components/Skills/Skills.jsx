@@ -41,8 +41,8 @@ export default function Skills() {
           </div>
           
           <div className={`flexCenter ${css.card}`}>
-            <div className={`flexCenter ${css.circle_beginer}`}> <DiReact size={45} /> </div>
-            <p>Beginner</p>
+            <div className={`flexCenter ${css.circle_intermediate}`}> <DiReact size={45} /> </div>
+            <p>Intermediate</p>
 
           </div>
           <div className={`flexCenter ${css.card}`}>
