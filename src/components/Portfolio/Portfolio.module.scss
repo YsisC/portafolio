@@ -78,6 +78,24 @@
                             font-size: 15px;
                             letter-spacing: 0.8px;
                         }
+                        >div{
+                            margin-top: 0.5rem;
+                            display: flex;
+                           gap: 1rem;
+                           justify-content: center;
+                           align-items: end;
+                           color: inherit;
+                           >a{
+                            text-decoration: none;
+                            color: inherit;
+                            font-size: medium;
+                            &:hover{
+                                color: $secondary ;
+                                text-decoration: underline;
+                            }
+                           }
+                         
+                        }
                       }
                       &:hover .proj_txtx {
                         top: 50%;
