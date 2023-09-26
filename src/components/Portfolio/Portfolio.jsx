@@ -23,7 +23,7 @@ export default function Portfolio() {
       <div className={`innerWidth flexCenter ${css.container}`}>
         <div className={`flexCenter ${css.headding}`}>
           <div>
-            <span className="primaryText">My Latest Works</span>
+            <span className="primaryText">My latest projects</span>
             <p style={{ marginTop: "10px" }}>Perfect solution</p>
           </div>
           <a href="https://github.com/YsisC?tab=repositories" target="_blank">
