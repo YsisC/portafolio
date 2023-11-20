@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useHeaderShadow = () => {
-const [headerShadow, setHeaderShadow] = useState(false)
+const [headerShadow, setHeaderShadow] = useState("")
   //to handle shadow of header
   useEffect(() => {
     function handleScroll() {

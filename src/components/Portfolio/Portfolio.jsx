@@ -106,8 +106,8 @@ export default function Portfolio() {
                 <h4>MD LINKS NPM</h4>
                 <span>ABILITIES: NODE AND NPM</span>
                 <div>
-                   <a href="https://dev-003-burger-queen-api-client-o7uo5f1jy-ysisc.vercel.app/login/" target="_blank"><TiWorld /> Web </a> 
-                   <a href="https://github.com/YsisC/DEV003-burger-queen-api-client" target="_blank"> <AiFillGithub /> Github </a> 
+                   <a href="https://www.npmjs.com/package/ysisc-md-links" target="_blank"><TiWorld /> Web </a> 
+                   <a href="https://github.com/YsisC/DEV003-md-links" target="_blank"> <AiFillGithub /> Github </a> 
                 </div>  
               </div>
             </div>
